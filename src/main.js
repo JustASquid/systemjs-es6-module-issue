@@ -1,5 +1,6 @@
 "use strict";
-import * as EmailValidator from "email-validator";
-console.log(EmailValidator.validate("test"));
-console.log(EmailValidator.validate("test@test.com"));
+Object.defineProperty(exports, "__esModule", { value: true });
+const email_validator_1 = require("email-validator");
+console.log(email_validator_1.default.validate("test"));
+console.log(email_validator_1.default.validate("test@test.com"));
 //# sourceMappingURL=main.js.map
